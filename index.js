@@ -18,7 +18,7 @@ const adminprefix = "admin-"
 client.on('ready', function(){
     client.user.setStatus("online");
     var ms = 100000 ;
-    var setGame = [`-help On ${client.guilds.size} Servers`,`-inv Users ${client.users.size}`,`Emerald Bot ❤ ✯`];
+    var setGame = [`-help On ${client.guilds.size} Servers`,`-inv Users ${client.users.size}`,` `];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -8997,4 +8997,4 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
 });
 
-client.login(NDk4NDIzNTQ0MzgwNjUzNTY4.DqkJ1Q.46WeJXkAuxA8IUg9kOii5gx6Oi0);
+client.login(NDk4NDIzNTQ0MzgwNjUzNTY4.DqkTAA.hIrXq7V78Vo1oS4Wkggw0Zv80hs);
