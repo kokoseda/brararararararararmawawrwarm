@@ -8997,4 +8997,4 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
 });
 
-client.login(process.env.TOKEN);
+client.login(NDk4NDIzNTQ0MzgwNjUzNTY4.DqkJ1Q.46WeJXkAuxA8IUg9kOii5gx6Oi0);
